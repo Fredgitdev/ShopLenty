@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services at Serena Hotel</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Bootstrap JS, Popper.js, and jQuery (necessary for some Bootstrap components) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation buttons -->
+<a href="index.html" class="btn btn-outline-primary">Home</a>
+<a href="about.html" class="btn btn-outline-warning">About</a>
+<a href="gallery.html" class="btn btn-outline-info">Gallery</a>
+<a href="product.html" class="btn btn-outline-info">Product</a>
+<a href="services.html" class="btn btn-outline-danger">Services</a>
+<a href="register.html" class="btn btn-outline-secondary">Register</a>
+<a href="main.html" class="btn btn-outline-success">Main</a>
+
+<!-- Page header -->
+<h1 class="text-center text-primary mt-3 mb-3">Services Offered at Serena Hotel</h1>
+
+<!-- Service sections with images and descriptions -->
+<div class="row">
+    <div class="col-5">
+        <img src="assets/swimmingpool.jpg" alt="Swimming Pool" class="w-100 h-25">
+        <h2>Swimming Pool</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet laborum libero quae unde voluptatem! Aspernatur consequatur eos facere facilis necessitatibus?</p>
+
+        <div class="d-grid">
+            <button class="btn btn-primary">More</button>
+        </div>
+
+    </div>
+
+    <div class="col-3">
+        <img src="assets/massage.jpg" alt="Massage" class="w-100 h-25">
+        <h2>Massage</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet laborum libero quae unde voluptatem! Aspernatur consequatur eos facere facilis necessitatibus?</p>
+
+        <div class="d-grid">
+            <button class="btn btn-warning">More</button>
+        </div>
+
+    </div>
+
+    <div class="col-4">
+        <img src="assets/gym.jpg" alt="Gym" class="w-100 h-25">
+        <h2>Gym</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet laborum libero quae unde voluptatem! Aspernatur consequatur eos facere facilis necessitatibus?</p>
+
+        <div class="d-grid">
+            <a href="gallery.html" class="btn btn-primary">GO TO GALLERY</a>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--a bootsrap form-->
+
+<h1 class="mt-5 text-center">Student Form</h1>
+
+<form action="" class="bg-info container p-5">
+    <label for="fname" class="form-label">Full Name</label>
+    <input type="text" class="form-control mb-4" id="fname" placeholder="Enter Full Name" required="required">
+
+    <label for="email" class="form-label">Email Address</label>
+    <input type="email" class="form-control mb-4" id="email" placeholder="abc@gmail.com" required="required">
+
+    <label for="pwd" class="form-label">Password</label>
+    <input type="password" class="form-control mb-4" id="pwd" placeholder="Type Password" required="required">
+
+
+    <label for="yos" class="form-label">Year Of Study</label>
+
+    <select name="" id="yos" class="form-select mb-4">
+    <option value="" disabled="disabled">--Choose Year Of Study--</option>
+    <option value="">Year 1</option>
+    <option value="">Year 2</option>
+    <option value="">Year 3</option>
+    <option value="">Year 4</option>
+    </select>
+
+
+    <button type="submit" class="btn btn-primary mb-4">Submit</button>
+</form>
+
+</body>
+</html>
